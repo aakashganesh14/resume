@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #007bff;
+        }
+
+        /* Navigation Styles */
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 0 10px;
+            color: #333;
+        }
+
+        /* Main Content Styles */
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Responsive Styles */
+        @media screen and (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+
+        .profile{
+            width: 200px;
+        }
+        button{
+            padding: 10px;
+            font-family:'Times New Roman', Times, serif;
+            border-radius: 10px;
+        }
+        button:hover{
+            background-color: skyblue;
+        }
+
+        th, td{
+padding-top: 10px;
+padding-bottom: 20px;
+padding-left: 30px;
+padding-right: 40px;
+}
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <img class="profile" src="bny-modified.png" alt="profile-pic">
+        <h1>Aakash Ganesh Musa</h1>
+        <button><a href="https://drive.google.com/file/d/1HBAUuL0d75LwsYAXJUVbK9bUdw-hw6gl/view?usp=sharing"></a>Resume</button>
+        <p></p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <section>
+        <div id="about">
+            <h2>About Me</h2>
+            <hr />
+            <p>I am currently enrolled in the B.Com (Computer Applications) program at Avinash College of Commerce. 
+                I am actively seeking internship opportunities to apply and enhance my skills for the betterment of organizations. </p>
+        </div>
+
+        <div id="education">
+            <h2>Education</h2>
+            <hr />
+            <table >
+                <tr>
+                    <th>Institue</th>
+                    <th>Course</th>
+                    <th>Percentage</th>
+                    <!-- <th>Year</th> -->
+                </tr>
+                <tr>
+                    <td>Avinash College of Commerce</td>
+                    <td>B.Com(Computer Applications)</td>
+                    <td>85%</td>
+                    <!-- <td>2022 - Present</td> -->
+                </tr>
+                <tr>
+                    <td>Sri Chaitanya Junior College</td>
+                    <td>MEC</td>
+                    <td>75%</td>
+                    <!-- <td></td> -->
+                </tr>
+                <tr>
+                    <td>Vidya Vikas High School</td>
+                    <td>SSC</td>
+                    <td>87%</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="skills">
+            <h2>Skills</h2>
+            <hr />
+            <h3>Technologies </h3>
+                Web Technologies : HTML, CSS.<br />
+                Programming Languagues : JAVA.<br />
+                Developer Tools : GitHub.<br />
+                <h3>Office Suite </h3>
+                MS Excel Pro, MS Word, MS PowerPoint <br />
+                Gmail, Drive, Sheets, Docs, Forms
+                <h3>Soft Skills</h3>
+                Communication, Quick Learner, Patience,
+                Adaptability
+            
+        </div>
+
+        <div id="projects">
+            <h2>Projects</h2>
+            <hr />
+            <h3>ATM <a href="https://github.com/aakashganesh14/ATM-Console">Source Code Repository</a></h3>
+            Developed console based ATM application which
+shows the basic features.
+            <h3>Portfolio <a href="https://github.com/aakashganesh14/resume">Source Code Repository</a></h3>
+            Designed Portfolio to showcase my qualifications and
+            skills.
+            
+        </div>
+
+        <div id="contact">
+            <h2>Contact</h2>
+            <hr />
+            <p>E-mail   : <a href="mailto:aakashganesh14@gmail.com">aakashganesh14@gmail.com</a></p>
+            <p>LinkedIn : <a href="https://www.linkedin.com/in/aakashganesh/">aakashganesh</a></p>
+        </div>
+    </section>
+</body>
+
+</html>
